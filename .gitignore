@@ -157,7 +157,7 @@ if (plugCubed !== undefined) plugCubed.close();
                 if (settings.images !== undefined) {
                     // images.background
                     if (settings.images.background)
-                        Styles.set('rss-background-image', '.room-background { background-image: url("http://i.imgur.com/6N7svVu.png' + settings.images.background + '")!important; }');
+                        Styles.set('rss-background-image', '.room-background { background-image: url("(http://i.imgur.com/6N7svVu.png)' + settings.images.background + '")!important; }');
 
                     // images.playback
                     if ($('#playback .background img').data('_o') === undefined)
